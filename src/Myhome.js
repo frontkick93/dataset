@@ -34,12 +34,13 @@ function Myhome(){
     }
 
     if (error) {
-        return <div>{error}</div>;
+        return <div>{error}</div>; 
     }
 
     return (
         <div style={containerStyle}>
-            {data.map(item => (
+            console.log(data)
+            {data && data.map(item => (
                 <li key={item.movementidd}>
                     {item.movementidd}, {item.newmend}, {item.staffname2}
                 </li>

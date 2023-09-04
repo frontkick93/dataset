@@ -31,14 +31,14 @@ function App() {
         </a>
         
         <ul id="navbar">
-          <li><Link to="/">MyHome</Link></li>
+          <li><Link to="/Myhome">MyHome</Link></li>
           <li><Link to="/Zoho">Zoho</Link></li>
         </ul>
         
       </nav>
 
       <Routes>  
-        <Route path="/" element={<Myhome />} />
+        <Route path="/Myhome" element={<Myhome />} />
         <Route path="/Zoho" element={<Zoho />} />
       </Routes>
       </>
