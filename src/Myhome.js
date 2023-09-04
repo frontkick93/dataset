@@ -15,7 +15,7 @@ function Myhome(){
 
     useEffect(() => {
         // Make an HTTP request to fetch data
-        axios.get('https://frontkick93.github.io/dataset/')
+        axios.get('https://mydataset-3e8b28e862d5.herokuapp.com/')
         .then(response => {
             const mydata = response.data;
             console.log(response.data);
